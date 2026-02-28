@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 25px;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    background-color: #fbbc05;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.logo {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.search-container {
+    background-color: #c2c5cc;
+    width: 600px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.search-container input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.icon {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.mode {
+    background-color: #3c4043;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.mode:hover {
+    background-color: #5f6368;
+}
+
+
+.shortcuts {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.shortcut {
+    text-align: center;
+    cursor: pointer;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #303134;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.shortcut p {
+    font-size: 13px;
+    margin-top: 10px;
+}
